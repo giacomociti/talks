@@ -1376,7 +1376,7 @@ program anyway, and it worked - [Eric S. Raymond](https://en.wikipedia.org/wiki/
 
     let printList() = 
         for i in [1..10] do
-            printfn "the number is %i"
+            printfn "the number is %i" i
 
 <div class="fragment">
 
